@@ -19,7 +19,7 @@ class SimpleLayout(bgui.bge_utils.Layout):
 		self.frame.colors = [(0, 0, 0, 0) for i in range(4)]
 
 		# A themed frame
-		self.win = bgui.Frame(self, size=[0.6, 0.8],
+		self.win = bgui.Frame(self, size=[0.6, 0.8], border=0,
 			options=bgui.BGUI_DEFAULT|bgui.BGUI_CENTERED)
 			
 		# Create an image to display
